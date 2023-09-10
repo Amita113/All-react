@@ -1,0 +1,17 @@
+1---create a parent container and child container
+
+2--then apply child container background-color: 
+border: solid some color
+margin: 20px
+width and height as 150 150 to get sqaure
+
+
+
+3--make parent conatine as display flex
+border solid 1px grey
+height 45vh
+flex-direction is applied in parent class only
+to parent itself flex-direction:
+justify-content: center, flex-end
+
+align-items flex-start, flex-end, center, space evenly 

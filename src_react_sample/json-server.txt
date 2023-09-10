@@ -1,0 +1,22 @@
+we will first install json-server to create fake api's
+
+npm install json-server
+npm install -g json-server
+
+we need to create a json file
+json-server --watch db.json
+
+after which we need to start the server at a port
+
+simply we need to type 
+json-server --watch db.json --port 3031
+
+
+DM
+
+Setting up the json server
+
+open the githib json server page
+json server follows rest API conventions
+
+https://www.npmjs.com/package/json-server

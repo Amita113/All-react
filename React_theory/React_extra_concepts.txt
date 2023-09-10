@@ -1,0 +1,18 @@
+Animated modal using react, framer-motion & styled-components
+
+https://www.geeksforgeeks.org/animated-sliding-image-gallery-using-framer-and-reactjs/
+
+
+testing
+https://www.geeksforgeeks.org/how-to-test-react-components-using-jest/
+
+data binding 
+https://www.geeksforgeeks.org/reactjs-data-binding/?ref=ml_lbp
+
+
+bread crumbs:
+https://www.geeksforgeeks.org/how-to-use-breadcrumbs-component-in-material-ui/?ref=ml_lbp
+
+Ant design
+https://www.geeksforgeeks.org/reactjs-ui-ant-design-other-component-complete-reference/
+

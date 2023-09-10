@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>float layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction:row-reverse;
+            background-color: yellow;
+
+        }
+       .main{
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
+       }
+
+
+        .child {
+            /* border: solid 2px black; */
+            /* background-color: orangered; */
+            margin: 10px;
+           width: 150px;
+            height: 150px;
+        }
+
+        /* if we want to give different width 
+to different child containers then flex-grow*/
+        .item1 {
+            flex-grow: 2;
+        }
+        .item2{
+            flex-grow: 4;
+        }
+        nav a{
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 8px;
+            margin-left: 10px;
+            float: right;
+            margin-top: 100px;
+            color: blanchedalmond;
+        }
+a{
+    background-color: black;
+    margin: 10px;
+    padding:5px;
+
+}
+h1{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 70px;
+} 
+img{
+    width: 150px;
+    height: 150px;
+}
+.section{
+    margin: 10px;
+    background-color: azure;
+    width: 200px;
+    height: 500px;
+}
+.content{
+    flex-grow: 5;
+}
+li{
+    list-style-type: none;
+    margin-left: 5px;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    background-color:black;
+}
+
+.schild{
+margin: 20px;
+padding: 20px;
+
+}
+.social{
+    flex-grow: 4;
+}
+/* .busni{
+    flex-grow: 2;
+} */
+    </style>
+</head>
+
+<body>
+   
+    <div class="header">
+        <div class="child item1">
+            <nav>
+                <a href="second.html">Contactus</a>
+                <a href="second.html">Home</a>
+                <a href="second.html">About</a>
+            </nav>
+
+        </div>
+        <div class="child item2">
+        <h1> Library Management</h1>
+        </div>
+        <div class="child item3">
+       <img src="icecream.jpg" alt="">
+
+        </div>
+       
+    </div>
+
+    <!--main section-->
+    <div class="main">
+        <div class="section content">
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum alias odio voluptatibus aliquam consequuntur suscipit in quia nemo optio consequatur culpa, accusantium possimus, esse libero explicabo soluta voluptas sapiente dolore? Ut voluptatem voluptas assumenda minima eaque necessitatibus molestiae voluptatibus animi dolorem. Quo molestiae nisi sit perspiciatis qui repellendus dolor, fugit ipsam eaque maxime ut, rem alias facere laboriosam vel libero, praesentium voluptatibus delectus nulla obcaecati ea quidem accusamus! Id suscipit doloribus nisi. Corporis doloremque tempore ipsam exercitationem numquam esse alias beatae. Quo fugit eius exercitationem cumque, modi consequatur dignissimos accusamus explicabo voluptas! Vero reprehenderit porro, dolorem sunt architecto ullam! Commodi, nostrum. Iste ea perspiciatis itaque sequi nostrum facere repellendus dolore, dolorem labore similique ullam totam consectetur necessitatibus reiciendis illo officiis nihil? Ea corporis neque dicta repellat nisi repudiandae eum incidunt cupiditate, asperiores, deleniti omnis! Cupiditate pariatur minus sit. Beatae voluptates quos quam, laborum doloribus, debitis facere cumque eius minima deserunt consequuntur veritatis neque quod recusandae placeat adipisci? Odit nesciunt dicta, delectus voluptatibus ad molestiae sint autem placeat saepe! Quaerat sunt sit earum excepturi magni mollitia quas in non voluptatibus voluptatem ratione ducimus est, unde cupiditate officia placeat possimus aspernatur repudiandae reiciendis quia reprehenderit. Quo provident sed molestiae eveniet illum nisi doloremque quas voluptatem aliquid dolores fugiat a, odio quidem aperiam, repellat ratione ea sapiente minima pariatur architecto maxime et deleniti omnis. Aliquid dolorum, earum similique quis reiciendis, aut omnis vero, possimus nam aspernatur enim neque praesentium. Iste at culpa autem quasi quo voluptatum repellendus sunt, natus minima repellat minus, voluptas ad exercitationem quia laborum beatae temporibus eum cupiditate possimus molestias sequi accusamus iure nam magni. Eius, esse optio provident maiores asperiores enim quaerat! Molestiae optio distinctio praesentium provident vitae asperiores fugit error eligendi ipsam numquam tenetur id temporibus, voluptatibus, repellat ullam repudiandae veniam. Ab quod assumenda dignissimos nam beatae doloribus perferendis minus rerum voluptates accusamus architecto dolore dolor autem aspernatur in obcaecati modi nisi doloremque reiciendis dolorum, ex blanditiis pariatur. Quasi nobis earum adipisci autem cum numquam. Commodi earum autem ipsam ipsa voluptas temporibus deleniti eum distinctio deserunt quae! Quis, laborum consectetur optio temporibus repellendus hic saepe tenetur id aliquam distinctio dignissimos a aperiam consequatur in ducimus recusandae sequi, vel unde. Ad placeat amet minima, pariatur molestias odio illum necessitatibus eius, ea saepe voluptatibus error, perferendis reiciendis earum nobis! Vitae quam atque eaque, deserunt rerum impedit reiciendis sunt eum assumenda qui corporis. Explicabo saepe pariatur nihil, quisquam voluptatem a corrupti cupiditate facere hic eum, commodi facilis. Non temporibus harum illo dolore officia error explicabo amet excepturi sapiente distinctio saepe commodi nobis, perspiciatis ullam reiciendis, repellat repudiandae. Laboriosam eligendi corrupti, labore deleniti expedita itaque accusantium quo  quibusdam veritatis aliquid error? Vitae impedit accusantium eos culpa quae.  maxime totam iure cupiditate? Quod rem voluptatem mollitia laudantium tempore!</p>
+
+        </div>
+        <div class="section reference">
+
+<details>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+</details>
+<details>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+</details>
+<details>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+</details>
+<details>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+</details>
+<details>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+</details>
+<details>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+</details>
+        </div>
+    </div>
+ 
+    <div class="footer">
+        <div id=" schild social"> 
+            <img src="facebook.png" style="width: 35px; height: 35px; margin-top: 50px; margin-left: 50px;" alt="Facebook" >
+            <!-- <img src="instagram.svg" alt="Facebook">
+            <img src="twitter.svg" alt="Facebook"> -->
+        </div>
+        <div class=" schild busni">
+            <p style="color: beige; margin-left: 330px;">copyright &copy Library Management</p>
+            <p style="color: beige; margin-left: 330px;">All rights reserrved 2022-2023</p>
+        </div>
+    </div>
+</body>
+
+</html>

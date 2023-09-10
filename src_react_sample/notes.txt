@@ -1,0 +1,22 @@
+Cleared the concepts for 
+
+React 
+
+Arrow functions offer a compressed and short version of a function expression and need fewer keystrokes than regular JavaScript functions from the developer and can be used as a simpler alternative to functions within class components and functional components and event handlers in React.
+
+ arrow functions are always used with const
+
+ they inherit the value of “this” from the enclosing scope
+
+
+ form validation
+
+ Form validation in React Js is a process of validation of information that has been entered by a user who is using the application. This is done to ensure that the information entered by the user is valid. For example, the first name of anyone can never be an empty string, the password which has been created by the user can not be an empty string, etc.
+
+There can be several constraints on the input data which have to be checked. If the user has entered any data without following its respective constraint (s), we have to notify the user and ask the user to re-enter the data while following the constraint (s).
+
+For example, some application wants the user to enter a strong password. So there can be many constraints in this case. Some of these are given below.
+
+Password must be greater than 8 characters in length.
+Password must contain at least one uppercase character.
+

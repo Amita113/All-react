@@ -1,0 +1,26 @@
+we used fetch API using json server
+
+and created a card component to fetch the users data and render them
+
+we use bootstrap and defined few css for the classes 
+
+npm run build is the command to deploy for production
+
+after which we will get  a build folder
+
+go to site section netlify and drag and drop 
+
+Find out more about deployment here:
+
+change site settings and you can get the netlify 
+
+
+
+
+
+
+
+
+
+
+  https://cra.link/deployment

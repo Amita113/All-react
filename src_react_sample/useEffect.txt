@@ -1,0 +1,69 @@
+The useEffect Hook allows you to perform side effects
+in your components. Some examples of side effects are:
+fetching data, directly updating the DOM,setting up 
+event listeners,and timers.useEffect accepts two 
+arguments.The second argument is optional.
+
+
+
+How Does it Work?
+useEffect accepts a function, and runs this function after every completed render. It also accepts an optional second argument, a dependency array. If a dependency array is passed in, React will know to re-run the effect only when values (state/props) inside the dependency array change. This hook also takes care of cleanup if required by the component.
+
+By using this Hook, you tell React that your component
+needs to do something after render. 
+React will remember the function you passed 
+(we'll refer to it as our “effect”), and call it later
+after performing the DOM updates.
+
+Why we use fetch in useEffect?
+The useEffect hook will make a network request on 
+component render. When that fetch resolves, it will 
+set the response from the server to the local state 
+using the setState function. This, in turn, will 
+cause the component to render so as to update the 
+DOM with the data.
+
+
+
+What are the three lifecycle methods of useEffect?
+The React lifecycle: methods and hooks explained
+useEffect works similarly to the three lifecycle 
+methods: componentDidMount , componentDidUpdate , 
+and componentWillUnmount 
+
+
+setup: The function with your Effect’s logic. 
+Your setup function may also optionally return a 
+cleanup function. When your component is added to the 
+DOM, React will run your setup function. 
+After every re-render with changed dependencies, 
+React will first run the cleanup function 
+(if you provided it) with the old values, 
+and then run your setup function with the new values. 
+After your component is removed from the DOM, 
+React will run your cleanup function.
+
+
+useEffect is a Hook, so you can only call it at 
+the top level of your component or your own Hooks. 
+You can’t call it inside loops or conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.educative.io/answers/how-to-fetch-data-in-react-using-hooks
+
+https://codesandbox.io/s/chat-room-useeffect-x787v9?file=/App.js
+
+clear and detailed explanation about useEffect hook
+
+https://dmitripavlutin.com/react-useeffect-explanation/
+
